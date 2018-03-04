@@ -297,17 +297,13 @@ Width at 640px and below
     max-width: 100%;
   }
 
-  #masthead {
-    position: static;
-  }
-
   #logo {
-    float: none;
     width: 100%;
-    padding-bottom:30px;
-    padding-left: 368px;
-    padding-right: 368px;
+    float: none;
     padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left:368px;
+    padding-right:368px;
   }
   
   nav {
