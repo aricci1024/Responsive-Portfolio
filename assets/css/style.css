@@ -244,7 +244,9 @@ input[type=submit] {
   border: 0 none;
 }
 
-/*Width at 980px and below*/
+
+
+/*Width at 980px and below
 @media only screen and (max-width: 980px) {
 
   .container {
@@ -264,9 +266,13 @@ input[type=submit] {
     clear: both;
     line-height: 200%;
   }
+
+  .work {
+    margin-left: 15px;
+  }
 }
 
-/*Width at 768px and below
+Width at 768px and below
 @media only screen and (min-width: 768px) {
 
   .container {
@@ -288,9 +294,17 @@ input[type=submit] {
     float: none;
     display:block;
   }
+
+  .work {
+    width: 418px;
+  }
+
+  .portfolio-section {
+    height: 1250px;
+  }
 }
 
-Width at 640px and below
+Width at 640px and below*/
 @media only screen and (min-width: 640px) {
 
   .container {
@@ -342,4 +356,12 @@ Width at 640px and below
     margin-left: 30px;
     margin-bottom: 50px;
   }
-} */
+
+  .work {
+    width: 100%;
+  }
+
+  .portfolio-section {
+    height: 3670px;
+  }
+}
