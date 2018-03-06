@@ -314,31 +314,52 @@ input[type=submit] {
     max-width: 100%;
   }
 
+  #masthead {
+    position: static;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    width: 100%;
+  }
+
   #logo {
     width: 100%;
     float: none;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left:368px;
-    padding-right:368px;
+    line-height: normal;
+    padding-top: 20px;
+    font-weight: 500px;
+    height: 0%;
+    margin-bottom: -20px;
+    }
+
+  .name-header {
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .nav-header {
+    background-color: white;
   }
   
   nav {
     max-width: 100%;
     float: none;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
   }  
 
   nav a {
     max-width: 100%;
-    padding-left: 180px;
+    margin-left: 0;
+    margin-right: 20px;
   }
 
   .main-section {
-    margin-top: 80px;
+    margin-top: -110px;
     max-width: 94%;
     float: none;
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   p {
@@ -356,7 +377,7 @@ input[type=submit] {
   .sidebar {
     max-width: 94%;
     float: none;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 50px;
   }
 
