@@ -248,7 +248,7 @@ input[type=submit] {
 
 /* Width at 980px and below */
 
-@media only screen and (max-width: 980px) {
+@media only screen and (min-width: 769px) and (max-width: 980px) {
 
   .container {
     max-width: 720px;
@@ -275,7 +275,7 @@ input[type=submit] {
 
 /* Width at 768px and below */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 641px) and (max-width: 768px) {
 
   .container {
     max-width: 98%;
