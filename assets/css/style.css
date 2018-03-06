@@ -244,9 +244,10 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* @media querys below */
 
+/* Width at 980px and below */
 
-/*Width at 980px and below
 @media only screen and (max-width: 980px) {
 
   .container {
@@ -272,8 +273,9 @@ input[type=submit] {
   }
 }
 
-Width at 768px and below
-@media only screen and (min-width: 768px) {
+/* Width at 768px and below */
+
+@media only screen and (max-width: 768px) {
 
   .container {
     max-width: 98%;
@@ -304,8 +306,9 @@ Width at 768px and below
   }
 }
 
-Width at 640px and below*/
-@media only screen and (min-width: 640px) {
+/* Width at 640px and below */ 
+
+@media only screen and (max-width: 640px) {
 
   .container {
     max-width: 100%;
